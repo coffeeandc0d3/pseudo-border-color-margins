@@ -15,5 +15,6 @@ cp appendData $userPath
 # Run auto append program, passing in user pathname
 ./configure-theme $userPath
 
-# Cleanup: 
+# Cleanup:
 rm $userPath/appendData
+openbox --reconfigure
