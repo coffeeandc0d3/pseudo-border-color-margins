@@ -1,7 +1,15 @@
 # pseudo-border-color-margins
 Openbox config with gaps and additional gtk.css for colored borders
 
-*NOTE* You'll only have margins by implementing the keybindings. See top of the 'rc.xml' to find keybinding section. Of course these can be overriden to your liking :) 
+[*NOTE*] 
+
+You'll only have margins/'gaps' by implementing the keybindings which are the only thing not auto-installed in the script. Just copy the rc.xml (however you need to name it) to ~/.config/openbox. Then at a prompt type: openbox --reconfigure
+
+[Modify Keybindings]
+
+See top of the 'rc.xml' to find keybinding section. Of course these can be overriden to your liking as long as the margin code is kept :) 
+
+[Overview]
 
 Basically this is 'fake gaps' (really margins) for Openbox windows along with colored borders. Note the screenshot has the border-width at 3, but you can certainly make it thicker and prettier. 
 To really take advantage of the 'faux' manual-tiling, you'll wanna use the keyboard shortcuts or modify to your liking. 
