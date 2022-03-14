@@ -28,4 +28,4 @@ sudo chmod u+x install.sh
 
 ./install.sh
 
-[*Note: this auto installs the Openbox theme, gtk.css for colored borders and active states, but does not install the openbox keybindings. The file is included in the repo: lxde-rc.xml but rename to whichever works for your distro and openbox.]
+[*Note: this auto installs the Openbox theme, gtk.css for colored borders and active states, but does not install the openbox keybindings. The file is included in the repo: rc.xml but rename to whichever works for your distro and openbox.]
