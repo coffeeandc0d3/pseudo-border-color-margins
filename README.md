@@ -15,3 +15,17 @@ Note: GTK applications will not have a correct 'active' color of the soft red. T
 What this means is your GTK apps will always have the inactive border color - mint green in this case. 
 
 ![faux-border-colors](https://user-images.githubusercontent.com/31811490/158075168-4eac0bc5-76db-488d-8b42-bc4df596f772.png)
+
+[To Install]
+
+cd build
+
+git clone https://github.com/coffeeandc0d3/pseudo-border-color-margins
+
+cd pseudo-border-color-margins/ 
+
+sudo chmod u+x install.sh
+
+./install.sh
+
+[*Note: this auto installs the Openbox theme, gtk.css for colored borders and active states, but does not install the openbox keybindings. The file is included in the repo: lxde-rc.xml but rename to whichever works for your distro and openbox.]
