@@ -23,10 +23,10 @@ int main(int argc, char *argv[])
    if (!GTK_DIR.is_open()) {cout << "Error creating file"; return 1; }
    if (!dataToAdd.is_open()) { cout << "Could not read from source tree. "; return 2; }
 
-   cout << "Appending border colors and states... " << endl;   
+   cout << endl << "Appending border colors and states... " << endl;   
    GTK_DIR << dataToAdd.rdbuf();
    
-   cout << endl << "Done! Change theme in Openbox to Matcha-Config. " << endl;
+   cout << "Done! Change theme in Openbox to Matcha-Config. " << endl;
    
    return 0;
 }
