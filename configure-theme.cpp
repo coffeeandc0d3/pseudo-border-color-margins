@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
    std::ifstream dataToAdd(WDIR + "/appendData");
    std::ofstream GTK_DIR(WDIR + "/.config/gtk-3.0/gtk.css", std::ios_base::app | std::ios_base::out);
 
-// First write to-be-appended data to separate file      
+// Append to the gtk.css file the data file       
    if (!GTK_DIR.is_open()) {cout << "Error creating file"; return 1; }
    if (!dataToAdd.is_open()) { cout << "Could not read from source tree. "; return 2; }
 
