@@ -1,5 +1,5 @@
 # pseudo-border-color-margins
-Openbox config and themrc w/ gtk for colored borders
+Openbox config with gaps and additional gtk.css for colored borders
 
 Simple 'fake gaps' (really margins) for Openbox windows with colored border panels. Note the screenshot has the border-width at 3, but you can certainly make it thicker and prettier. 
 To really take advantage of the 'faux' manual-tiling, you'll wanna use the keyboard shortcuts or modify to your liking. 
