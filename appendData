@@ -1,0 +1,38 @@
+/* @import 'colors.css'; */ 
+
+@define-color decoration_border_color #2cc99a;
+@define-color decoration_border_color_unfocused #6F5F0C;
+
+/* focused window */
+decoration {
+    border: 2px solid @decoration_border_color;
+    background: @decoration_border_color;
+
+    /* switch colors smoothly with a transition animation */
+    transition: border-color ease-in 0.2s, background-color ease-in 0.2s;
+}
+
+/* unfocused window */
+decoration:backdrop {
+    border-color: @decoration_border_color_unfocused;
+    background-color: @decoration_border_color_unfocused;
+}
+
+/* focused window (server-side rendering hack) */
+.ssd .titlebar {
+    border: 2px solid @decoration_border_color;
+    border-bottom: none;
+
+    /* transition animation does not seem to work with server-side rendering */
+    /* transition: border-color ease-in 0.2s; */
+}
+
+/* unfocused window (server-side rendering hack) */
+.ssd .titlebar:backdrop {
+    border-color: @decoration_border_color_unfocused;
+}
+
+/* remove borders of maximized windows */
+.maximized decoration,
+.ssd.maximized .titlebar {
+    border: none

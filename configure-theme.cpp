@@ -1,0 +1,30 @@
+#include <iostream>
+#include <string>
+#include <fstream>
+using namespace std;
+
+// Write additional contents for gtk.css to new file & append to acatual gtk.css
+static string WDIR="";
+static string ORIGINAL_GTK="";
+
+int main(int argc, char *argv[])
+{
+   if (argc != 2) {cout << "Couldn't determine $USER pathname."; return 1;}
+ 
+   WDIR = argv[1];
+   cout << "In: " << WDIR << endl;   
+   
+// Grab data we wanna add to the GTK file later
+ std::ifstream dataToAdd(WDIR + "/appendData");
+ std::ofstream GTK_DIR(WDIR + "/.config/gtk-3.0/gtk.css", std::ios_base::app | std::ios_base::out);
+
+// First write to-be-appended data to separate file      
+   if (!GTK_DIR.is_open()) {cout << "Error creating file"; return 1; }
+   if (!dataToAdd.is_open()) { cout << "Could not read from source tree. "; return 2; }
+   
+   GTK_DIR << dataToAdd.rdbuf();
+   
+   cout << endl << "Done! Change theme in Openbox to Matcha-Config. " << endl;
+   
+   return 0;
+}
