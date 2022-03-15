@@ -28,6 +28,8 @@ What this means is your GTK apps will always have the inactive border color - mi
 
 [To Install]
 
+mkdir build
+
 cd build
 
 git clone https://github.com/coffeeandc0d3/pseudo-border-color-margins
