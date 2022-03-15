@@ -9,7 +9,7 @@ g++ -o configure-theme configure-theme.cpp
 # Will pass user path to help C program find files easier
 userPath=`echo /home/$USER`
 
-# Store the data to be appended in the $HOME dir
+# Temporary buffer for the data being appended to the final file  
 cp appendData $userPath
 
 # Run auto append program, passing in user pathname
