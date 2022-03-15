@@ -7,7 +7,7 @@ You'll only have margins/'gaps' by implementing the keybindings which are the on
 
 [Modify Keybindings]
 
-See top of the 'rc.xml' to find keybinding section. Of course these can be overriden to your liking as long as the margin code is kept :) 
+See top of the 'rc.xml' to find a Ctrl + F term to jump to the keybinding section. Of course these can be overriden to your liking, just be aware you could delete the 'margin' code. 
 
 [Overview]
 
