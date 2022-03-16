@@ -21,8 +21,10 @@ Snap windows *but* there will be a margin on all sides for both windows.
 Snaps windows into respective corners. Might look like a confusing shortcut but it plays nicely with the first one 
 ergonommically. 
 
-Note: GTK applications will not have a correct 'active' color of the soft red. This is due to needing client-side rendering or something that GTK is built around. 
+Note: * GTK applications will not have a correct 'active' color of the soft red. This is due to needing client-side rendering or something that GTK is built around. 
 What this means is your GTK apps will always have the inactive border color - mint green in this case. 
+
+* The transparency in the below image isn't in this script, see https://github.com/ibhagwan/picom for how to get it if you're interested :)
 
 ![faux-border-colors](https://user-images.githubusercontent.com/31811490/158075168-4eac0bc5-76db-488d-8b42-bc4df596f772.png)
 
