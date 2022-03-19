@@ -1,6 +1,8 @@
 # pseudo-border-color-margins
 Openbox config with gaps and additional gtk.css for colored borders
 
+![faux-border-colors](https://user-images.githubusercontent.com/31811490/158075168-4eac0bc5-76db-488d-8b42-bc4df596f772.png)
+
 [*NOTE*] 
 
 You'll only have margins/'gaps' by implementing the keybindings which are the only thing not auto-installed in the script. Just copy the rc.xml (however you need to name it) to ~/.config/openbox. Then at a prompt type: openbox --reconfigure
@@ -27,8 +29,6 @@ Note:
 What this means is your GTK apps will always have the inactive border color - mint green in this case. 
 
 * The transparency in the below image isn't in this script, see https://github.com/ibhagwan/picom for how to get it if you're interested :)
-
-![faux-border-colors](https://user-images.githubusercontent.com/31811490/158075168-4eac0bc5-76db-488d-8b42-bc4df596f772.png)
 
 [To Install]
 
