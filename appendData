@@ -36,3 +36,4 @@ decoration:backdrop {
 .maximized decoration,
 .ssd.maximized .titlebar {
     border: none
+}
