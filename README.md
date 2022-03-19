@@ -28,7 +28,7 @@ Note:
 * GTK applications will not have a correct 'active' color of the soft red. This is due to needing client-side rendering or something that GTK is built around. 
 What this means is your GTK apps will always have the inactive border color - mint green in this case. 
 
-* The transparency in the below image isn't in this script, see https://github.com/ibhagwan/picom for how to get it if you're interested :)
+* The transparency in the preview image isn't in this script, see https://github.com/ibhagwan/picom for how to get it if you're interested :)
 
 [To Install]
 
