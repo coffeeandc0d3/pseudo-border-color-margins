@@ -1,0 +1,71 @@
+
+       <!-- Window snapping code we are adding -->
+    <keybind key="Alt-Left">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <width>48%</width>
+        <height>100%</height>
+        <x>1%</x>
+        <y>0%</y>
+      </action>
+    </keybind>
+    <keybind key="Alt-Right">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <width>49%</width>
+        <height>100%</height>
+        <x>50%</x>
+        <y>0%</y>
+      </action>
+    </keybind>
+    <keybind key="Alt-Up">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <width>100%</width>
+        <height>100%</height>
+        <x>0%</x>
+        <y>0%</y>
+      </action>
+    </keybind>
+    
+    <!-- top right/bottom left snapping -->
+    <keybind key="C-S-A-Left">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <width>49%</width>
+        <height>48%</height>
+        <x>0%</x>
+        <y>0%</y>
+      </action>
+    </keybind>
+    <!-- bottom right snapping -->
+    <keybind key="C-S-A-Right">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <width>50%</width>
+        <height>50%</height>
+        <x>50%</x>
+        <y>50%</y>
+      </action>
+    </keybind>
+       <keybind key="C-S-Alt-Down">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <width>49%</width>
+        <height>50%</height>
+        <x>0%</x>
+        <y>50%</y>
+      </action>
+    </keybind>
+<!-- this is where corner snapping is: -->
+    <keybind key="C-S-Alt-Up">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <width>50%</width>
+        <height>48%</height>
+        <x>50%</x>
+        <y>0%</y>
+      </action>
+    </keybind>
+<!-- End Corner Snapping -->
+<!-- End 'Gaps' Config -->
