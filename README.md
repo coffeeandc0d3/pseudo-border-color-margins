@@ -40,8 +40,10 @@ This will install border colors for active/inactive states of all windows, with 
 
 Lastly it installs the 'gaps' by using ~.xml keybindings in your /home/$USER/.config/openbox/.xml 
 
-Enable at a prompt: 
+To enable, open a prompt: 
+
 `obconf`
+
 Select Matcha-Config
 
 :) 
