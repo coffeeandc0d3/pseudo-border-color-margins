@@ -9,7 +9,7 @@ Basically this is 'fake gaps' (really margins) for Openbox windows along with co
 To really take advantage of the installed 'fake', manual-tiling, you'll wanna use the keyboard shortcuts or modify to your liking. 
 
 * [Alt + Left or Right]:
-Snap windows *but* there will be a margin on all sides for both windows.
+Snap windows with a margin on all sides for both windows.
 
 * [Ctrl + Shift + Alt] + [Left/Right/Up/Down] : 
 Snaps windows into respective corners. Might look like a confusing shortcut but it plays nicely with the first one 
