@@ -3,18 +3,10 @@ Openbox config with gaps and additional gtk.css for colored borders
 
 ![faux-border-colors](https://user-images.githubusercontent.com/31811490/158075168-4eac0bc5-76db-488d-8b42-bc4df596f772.png)
 
-[*NOTE*] 
-
-You'll only have margins/'gaps' by implementing the keybindings which are the only thing not auto-installed in the script. Just copy the rc.xml (however you need to name it) to ~/.config/openbox. Then at a prompt type: openbox --reconfigure
-
-[Modify Keybindings]
-
-See top of the 'rc.xml' to find a Ctrl + F term to jump to the keybinding section. Of course these can be overriden to your liking, just be aware you could delete the 'margin' code. 
-
 [Overview]
 
 Basically this is 'fake gaps' (really margins) for Openbox windows along with colored borders. Note the screenshot has the border-width at 3, but you can certainly make it thicker and prettier. 
-To really take advantage of the 'faux' manual-tiling, you'll wanna use the keyboard shortcuts or modify to your liking. 
+To really take advantage of the installed 'fake', manual-tiling, you'll wanna use the keyboard shortcuts or modify to your liking. 
 
 * [Alt + Left or Right]:
 Snap windows *but* there will be a margin on all sides for both windows.
@@ -44,4 +36,4 @@ sudo chmod u+x install.sh
 
 ./install.sh
 
-[*Note: this auto installs the Openbox theme, gtk.css for colored borders and active states, but does not install the openbox keybindings which gives you the 'gaps.' The keybinding file is included in the repo: 'rc.xml' but rename to whichever works for your distro and openbox.]
+This will install the border colors for an active/inactive border color, gtk border color state with exception of active state, and ~.xml keybindings for gaps.   
