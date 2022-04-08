@@ -36,4 +36,6 @@ sudo chmod u+x install.sh
 
 ./install.sh
 
-This will install the border colors for an active/inactive border color, gtk border color state with exception of active state, and ~.xml keybindings for gaps.   
+This will install border colors for active/inactive states of all windows, with exception to active gtk apps (inactive still works). 
+
+Lastly it installs the 'gaps' by using ~.xml keybindings in your ~/.config/openbox/~.xml file.   
